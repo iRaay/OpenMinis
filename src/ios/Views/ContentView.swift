@@ -6768,6 +6768,7 @@ private let supportedLanguages: [LanguageOption] = [
 private struct FontScaleRow: View {
     let label: String
     @Binding var level: FontScaleLevel
+    @Environment(\.layoutDirection) private var layoutDirection
 
     private static let cases = FontScaleLevel.allCases
     private let stepCount = FontScaleRow.cases.count  // 5
@@ -6784,8 +6785,8 @@ private struct FontScaleRow: View {
             Text(LocalizedStringKey(label))
             HStack(spacing: 12) {
                 Button {
-                    let idx = currentIndex - 1
-                    if idx >= 0 {
+                    let idx = (layoutDirection == .rightToLeft) ? currentIndex + 1 : currentIndex - 1
+                    if idx >= 0, idx < Self.cases.count {
                         level = Self.cases[idx]
                     }
                 } label: {
@@ -6803,8 +6804,8 @@ private struct FontScaleRow: View {
                 }
 
                 Button {
-                    let idx = currentIndex + 1
-                    if idx < Self.cases.count {
+                    let idx = (layoutDirection == .rightToLeft) ? currentIndex - 1 : currentIndex + 1
+                    if idx >= 0, idx < Self.cases.count {
                         level = Self.cases[idx]
                     }
                 } label: {
