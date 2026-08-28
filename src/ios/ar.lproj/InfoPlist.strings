@@ -1,0 +1,16 @@
+/* Info.plist permission strings — Arabic */
+
+"NSLocationWhenInUseUsageDescription" = "يستخدم Minis موقعك لتسجيل مكان بدء جلسات الوكيل في سجل الجلسات.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "يستخدم Minis الموقع في الخلفية للحفاظ على تشغيل مهام الوكيل عند عمل التطبيق في الخلفية. تُستخدم بيانات الموقع فقط لتسجيل سجل اتصال الجلسات.";
+"NSCalendarsUsageDescription" = "يحتاج Minis إلى الوصول إلى التقويم كي يتمكن وكيل الذكاء الاصطناعي من الاستعلام عن جدولك والتحقق من التوفر وإنشاء الأحداث نيابةً عنك.";
+"NSCalendarsFullAccessUsageDescription" = "يحتاج Minis إلى الوصول إلى التقويم كي يتمكن وكيل الذكاء الاصطناعي من الاستعلام عن جدولك والتحقق من التوفر وإنشاء الأحداث نيابةً عنك.";
+"NSRemindersUsageDescription" = "يحتاج Minis إلى الوصول إلى التذكيرات كي يتمكن وكيل الذكاء الاصطناعي من الاستعلام عن التذكيرات وإنشائها نيابةً عنك.";
+"NSRemindersFullAccessUsageDescription" = "يحتاج Minis إلى الوصول إلى التذكيرات كي يتمكن وكيل الذكاء الاصطناعي من الاستعلام عن التذكيرات وإنشائها نيابةً عنك.";
+"NSCameraUsageDescription" = "يحتاج Minis إلى الوصول إلى الكاميرا لالتقاط الصور للمحادثات مع الذكاء الاصطناعي.";
+"NSPhotoLibraryUsageDescription" = "يحتاج Minis إلى مكتبة الصور لإرفاق الصور بالمحادثات مع الذكاء الاصطناعي.";
+"NSPhotoLibraryAddUsageDescription" = "يحتاج Minis إلى إذن لحفظ مقاطع الفيديو والصور في مكتبة الصور.";
+"NSMicrophoneUsageDescription" = "يحتاج Minis إلى الميكروفون لتحويل الصوت إلى نص أثناء المحادثة.";
+"NSSpeechRecognitionUsageDescription" = "يستخدم Minis ميزة التعرف على الكلام لتحويل صوتك إلى رسائل نصية.";
+"NSHomeKitUsageDescription" = "يحتاج Minis إلى الوصول إلى HomeKit كي يتمكن وكيل الذكاء الاصطناعي من الاستعلام عن ملحقات المنزل الذكي والتحكم بها نيابةً عنك.";
+"NSAlarmKitUsageDescription" = "يستخدم Minis ميزة AlarmKit لضبط المنبهات والمؤقتات نيابةً عنك.";
+"NSLocalNetworkUsageDescription" = "تحتاج الآلة الافتراضية إلى الوصول إلى الشبكة للاتصال عبر SLIRP.";
